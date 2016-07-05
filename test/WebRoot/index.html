@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+	 <meta name="author" content="hcl" />
+	  <meta name="description" content="首页" />
+	<script>
+	// 让像素尽可能的还原到1：1
+			var iScale = 1;
+			iScale = iScale / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+iScale+',minimum-scale='+iScale+',maximum-scale='+iScale+',user-scalable=no" />')
+			// 屏幕比例，720*1280，（界面长宽高/45 把px单位转换成rem单位）
+			var iWidth = document.documentElement.clientWidth;
+			document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+	<header>
+		<p class="title">流量兑换</p>
+	</header>
+	<section class="banner">
+		<ul class="banner-ul">
+			<li><a href="#"><img src="images/banner.jpg"></a></li>
+		</ul>
+	</section>
+	<section class="active-nav">
+		<ul class="active-ul1">
+			<li class="active-li1">
+				<ul class="active-ul2">
+					<li><a href="#"><div class="active-img1"><img src="images/shake.png"></div>摇一摇</a></li>
+					<li><a href="#"><div class="active-img2"><img src="images/game.png"></div>玩游戏</a></li>
+					<li><a href="#"><div class="active-img3"><img src="images/road.png"></div>高速路况</a></li>
+					<li><a href="#"><div class="active-img4"><img src="images/business.png"></div>商业合作</a></li>
+				</ul>
+			</li>
+			<li>
+				<ul class="active-ul2">
+					<li><a href="#"><div class="active-img5"><img src="images/price.png"></div>充值</a></li>
+					<li><a href="#"><div class="active-img6"><img src="images/view.png"></div>看视频</a></li>
+					<li class="down"><a href="#"><div class="active-img7"><img src="images/down.png"></div>下软件</a></li>
+					<li><a href="#"><div class="active-img8"><img src="images/change.png"></div>换游戏币</a></li>
+				</ul>
+			</li>
+
+		</ul>
+	</section>
+
+	<section class="active-list">
+		<div class="active-title">
+			<div class="active-title-img"><img src="images/alist.png"></div><p>活动推荐</p>
+			<div class="all"><a href="#">全部 ></a></div>
+		</div>
+		<ul class="active-list-ul">
+			<li><a href="#"><div class="active-list-ul-img"><img src="images/shakegame.jpg"></div></a></li>
+		</ul>
+	</section>
+	<footer>
+		<ul class="footer-ul">
+			<li class="home"><a href="#">
+			<div class="nav-img1"><img src="images/home.png" /></div>首页
+			</a></li>
+			<li class="shop"><a href="#"><div class="nav-img2"><img src="images/shop.png" /></div>商城</a></li>
+			<li class="active"><a href="#"><div class="nav-img3"><img src="images/active.png" /></div>活动</a></li>
+			<li class="mine"><a href="#"><div class="nav-img4"><img src="images/mine.png" /></div>我的</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

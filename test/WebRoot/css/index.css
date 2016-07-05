@@ -1,0 +1,230 @@
+/*index css*/
+*{
+	margin: 0;
+	padding:0;
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+	text-decoration: none;
+	color: rgb(144,144,144);
+}
+input {-webkit-appearance:none;/*去除input默认样式*/}
+img{
+	border:none;
+	width: 100%;
+	 vertical-align: top;
+}
+@font-face{
+	font-family: 'FZLTKHK';
+	src:url('../rs/FZLTKHK.TTF') format('turetype'),
+		url('../rs/fzltkhk.otf') format('opentype')	;
+}
+html,body{
+	background-color: rgb(240,242,242);
+	font-family: 'FZLTKHK';
+}
+/*头部导航*/
+header{
+	width: 100%;
+	height:2.155555555555556rem;
+	background-color: rgb(219,83,43);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	overflow:hidden;
+}
+.title{
+	color:white;
+	text-align: center;
+	line-height: 2.155555555555556rem;
+	font-size: 0.8222222222222222rem;
+	letter-spacing: 0.0444444444444444rem;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 6.688888888888889rem;
+	margin-top:2.155555555555556rem;
+
+}
+/*活动导航*/
+.active-nav{
+	width: 100%;
+	height: 7.555555555555556rem;
+	background-color:white; 
+	margin-top: 0.6222222222222222rem;
+}
+.active-ul1{
+	list-style: none;
+	font-size: 0.4888888888888889rem;
+}
+.active-ul1 li{
+	height: 3.777777777777778rem;
+	text-align: center;
+}
+.active-li1{
+	border-bottom: 1px solid rgb(144,144,144);
+	box-sizing: border-box;
+}
+.active-ul2{
+	list-style: none;
+}
+.active-ul2 li{
+	width: 25%;
+	float: left;
+}
+.active-ul2 li a{
+	color:rgb(89,87,87);
+	line-height:2.2rem; 
+}
+.down a{
+	line-height:1.75rem !important;  
+}
+.active-ul2 li:nth-of-type(1),.active-ul2 li:nth-of-type(2),.active-ul2 li:nth-of-type(3){
+	border-right: 1px solid rgb(144,144,144);
+	box-sizing: border-box;
+}
+.active-img1{
+	width: 25%;
+	margin: 0 auto;
+	height: 1.111111111111111rem;
+	margin-top: 0.8444444444444444rem;
+}
+.active-img2{
+	width: 30.55555555555556%;
+	margin: 0 auto;
+	height: 0.8666666666666667rem;
+	margin-top: 1.1rem;
+}
+.active-img3{
+	width: 30.55555555555556%;
+	margin: 0 auto;
+	height: 0.9333333333333333rem;
+	margin-top: 1.05rem;
+}
+.active-img4{
+	width: 25%;
+	margin: 0 auto;
+	height: 0.8888888888888889rem;
+	margin-top: 1.08rem;
+}
+.active-img5{
+	width: 18.33333333333333%;
+	margin: 0 auto;
+	height: 1.044444444444444rem;
+	margin-top: 0.8444444444444444rem;
+}
+.active-img6{
+	width: 28.33333333333333%;
+	margin: 0 auto;
+	height: 0.9777777777777778rem;
+	margin-top: 0.9rem;
+}
+.active-img7{
+	width: 29.44444444444444%;
+	margin: 0 auto;
+	height: 1.177777777777778rem;
+	margin-top: 0.95rem;
+}
+.active-img8{
+	width: 28.33333333333333%;
+	margin: 0 auto;
+	height: 0.9777777777777778rem;
+	margin-top: 0.9rem;
+}
+/*活动推荐*/
+.active-list{
+	width: 100%;
+	height:500px;
+	margin-top: 0.6222222222222222rem;
+	background-color: white;
+}
+.active-title{
+	width: 90.83333333333333%;
+	height: 1.8rem;
+	margin: 0 auto;
+	border-bottom: 1px solid rgb(144,144,144);
+	box-sizing: border-box;
+}
+.active-title-img{
+	width: 4.02777777777778%;
+	/*padding:0.4666666666666667rem 0.7777777777777778rem;*/
+	padding-top: 0.4666666666666667rem;
+	padding-right:0.3111111111111111rem; 
+	float: left;
+}
+.active-title p{
+	font-size: 0.5555555555555556rem;
+	line-height: 1.8rem;
+	float: left;
+}
+.all{
+	float: right;
+}
+.all a{
+	font-size: 0.4888888888888889rem;
+	line-height: 1.8rem;
+}
+.active-list-ul{
+	width: 100%;
+	list-style: none;
+}
+.active-list-ul li{
+	width: 90.83333333333333%;
+	height: 4.111111111111111rem;
+	margin: 0 auto;
+	padding-top:0.5333333333333333rem; 
+	padding-bottom:0.5333333333333333rem; 
+}
+/*底部导航栏*/
+footer{
+	width: 100%;
+	height:2.155555555555556rem;
+	background-color: white;
+	position: fixed;
+	left: 0;
+	bottom:0;
+	z-index: 9999;
+	overflow:hidden;
+}
+.footer-ul{
+	list-style: none;
+}
+.footer-ul li{
+	width: 25%;
+	float: left;
+	margin-top: 0.4222222222222222rem;
+	text-align: center;
+	font-size: 0.4888888888888889rem;
+}
+.nav-img1{
+	width: 22.77777777777778%;
+	height: 0.8444444444444444rem;
+	margin: 0 auto;
+	margin-bottom: 0.1777777777777778rem;
+}
+.nav-img2{
+	width: 22.22222222222222%;
+	height: 0.8444444444444444rem;
+	margin: 0 auto;
+	margin-bottom: 0.1777777777777778rem;
+}
+.nav-img3{
+	width: 20.55555555555556%;
+	height: 0.9333333333333333rem;
+	margin: 0 auto;
+	margin-bottom: 0.1777777777777778rem;
+}
+.nav-img4{
+	width: 21.11111111111111%;
+	height: 0.8444444444444444rem;
+	margin: 0 auto;
+	margin-bottom: 0.1777777777777778rem;
+}
+.home a{
+	color:rgb(219,83,43);
+}
+.active{
+	margin-top: 0.32999999rem !important;
+}
